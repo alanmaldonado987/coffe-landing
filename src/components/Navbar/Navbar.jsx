@@ -6,17 +6,17 @@ const Menu = [
   {
     id: 1,
     name: "Inicio",
-    link: "/#",
+    link: "#",
   },
   {
     id: 2,
     name: "Servicios",
-    link: "/#services",
+    link: "#services",
   },
   {
     id: 3,
     name: "Nosotros",
-    link: "/#about",
+    link: "#about",
   },
 ];
 const Navbar = () => {

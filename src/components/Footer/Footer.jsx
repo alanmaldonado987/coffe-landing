@@ -5,19 +5,15 @@ import FooterBg from "../../assets/website/coffee-footer.jpg";
 const FooterLinks = [
   {
     title: "Inicio",
-    link: "/#",
+    link: "#",
+  },
+  {
+    title: "Servicios",
+    link: "#services",
   },
   {
     title: "Nosotros",
-    link: "/#about",
-  },
-  {
-    title: "Contacto",
-    link: "/#contact",
-  },
-  {
-    title: "Blog",
-    link: "/#blog",
+    link: "#about",
   },
 ];
 
