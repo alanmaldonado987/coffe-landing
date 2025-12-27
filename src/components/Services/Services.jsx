@@ -6,7 +6,7 @@ const ServicesData = [
     img: Img2,
     name: "Espresso",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet.",
+      "Un café intenso y aromático, preparado con granos de la más alta calidad para los amantes del sabor puro.",
     aosDelay: "100",
   },
   {
@@ -14,7 +14,7 @@ const ServicesData = [
     img: Img2,
     name: "Americano",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+      "La combinación perfecta de espresso y agua caliente, suave y equilibrado para cualquier momento del día.",
     aosDelay: "300",
   },
   {
@@ -22,7 +22,7 @@ const ServicesData = [
     img: Img2,
     name: "Cappuccino",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+      "Espresso con leche vaporizada y espuma cremosa, una delicia italiana que conquista paladares.",
     aosDelay: "500",
   },
 ];
@@ -35,7 +35,7 @@ const Services = () => {
           {/* Heading section  */}
           <div className="text-center mb-20">
             <h1 className="text-4xl font-bold font-cursive text-gray-800">
-              Best Coffee For You
+              El Mejor Café Para Ti
             </h1>
           </div>
 

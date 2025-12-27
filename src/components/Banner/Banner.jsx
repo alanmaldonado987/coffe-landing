@@ -36,22 +36,21 @@ const Banner = () => {
                   data-aos="fade-up"
                   className="text-3xl sm:text-4xl font-bold font-cursive"
                 >
-                  Premium Blend Coffee
+                  Café de Mezcla Premium
                 </h1>
                 <p
                   data-aos="fade-up"
                   className="text-sm text-gray-500 tracking-wide leading-5"
                 >
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eaque reiciendis inventore iste ratione ex alias quis magni at
-                  optio
+                  Descubre nuestra selección exclusiva de granos cuidadosamente
+                  seleccionados de las mejores regiones cafeteras del mundo.
                 </p>
 
                 <div className="grid grid-cols-2 gap-6">
                   <div className="space-y-5">
                     <div data-aos="fade-up" className="flex items-center gap-3">
                       <GrSecure className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100 " />
-                      <span>Premium Coffee</span>
+                      <span>Café Premium</span>
                     </div>
                     <div
                       data-aos="fade-up"
@@ -59,7 +58,7 @@ const Banner = () => {
                       className="flex items-center gap-3"
                     >
                       <IoFastFood className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-orange-100 " />
-                      <span>Hot Coffee</span>
+                      <span>Café Caliente</span>
                     </div>
                     <div
                       data-aos="fade-up"
@@ -67,7 +66,7 @@ const Banner = () => {
                       className="flex items-center gap-3"
                     >
                       <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-3 rounded-full bg-yellow-100" />
-                      <span>Cold Coffee</span>
+                      <span>Café Frío</span>
                     </div>
                   </div>
                   <div
@@ -75,12 +74,12 @@ const Banner = () => {
                     className="border-l-4 border-primary/50 pl-6 space-y-2"
                   >
                     <h1 className="text-2xl font-semibold font-cursive ">
-                      Tea Lover
+                      Amantes del Té
                     </h1>
                     <p className="text-sm text-gray-500">
-                      Much like writing code, brewing the perfect cup of tea
-                      requires patience, precision, and a dash of passion to
-                      create a comforting blend of flavors.
+                      Al igual que escribir código, preparar la taza perfecta de té
+                      requiere paciencia, precisión y una pizca de pasión para
+                      crear una reconfortante mezcla de sabores.
                     </p>
                   </div>
                 </div>

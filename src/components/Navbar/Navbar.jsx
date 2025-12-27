@@ -5,17 +5,17 @@ import { FaCoffee } from "react-icons/fa";
 const Menu = [
   {
     id: 1,
-    name: "Home",
+    name: "Inicio",
     link: "/#",
   },
   {
     id: 2,
-    name: "Services",
+    name: "Servicios",
     link: "/#services",
   },
   {
     id: 3,
-    name: "About",
+    name: "Nosotros",
     link: "/#about",
   },
 ];
@@ -56,7 +56,7 @@ const Navbar = () => {
                 ))}
               </ul>
               <button className=" bg-primary/70 hover:scale-105 duration-200 text-white px-4 py-2 rounded-full flex items-center gap-3">
-                Order
+                Ordenar
                 <FaCoffee className="text-xl text-white drop-shadow-sm cursor-pointer" />
               </button>
             </div>

@@ -4,26 +4,26 @@ import Slider from "react-slick";
 const TestimonialData = [
   {
     id: 1,
-    name: "Dilshad",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "María García",
+    text: "El mejor café que he probado en la ciudad. El ambiente es acogedor y el servicio es excelente. ¡Definitivamente mi lugar favorito!",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
-    name: "Sabir ali",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Carlos López",
+    text: "Vengo aquí todos los días antes del trabajo. Su espresso es incomparable y el personal siempre te recibe con una sonrisa.",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
-    name: "Dipankar kumar",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Ana Martínez",
+    text: "Un lugar perfecto para trabajar o estudiar. El WiFi es rápido, el café delicioso y las tartas caseras son una maravilla.",
     img: "https://picsum.photos/104/104",
   },
   {
     id: 5,
-    name: "Satya Narayan",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Pedro Sánchez",
+    text: "Descubrí este café hace un mes y ya no puedo ir a otro lugar. La calidad de sus productos y la atención son insuperables.",
     img: "https://picsum.photos/103/103",
   },
 ];
@@ -76,7 +76,7 @@ const Testimonials = () => {
             data-aos="fade-up"
             className="text-center text-4xl font-bold font-cursive"
           >
-            Testimonials
+            Testimonios
           </h1>
         </div>
 

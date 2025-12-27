@@ -4,15 +4,15 @@ import FooterBg from "../../assets/website/coffee-footer.jpg";
 
 const FooterLinks = [
   {
-    title: "Home",
+    title: "Inicio",
     link: "/#",
   },
   {
-    title: "About",
+    title: "Nosotros",
     link: "/#about",
   },
   {
-    title: "Contact",
+    title: "Contacto",
     link: "/#contact",
   },
   {
@@ -44,15 +44,15 @@ const Footer = () => {
               Coffee Cafe
             </a>
             <p className="  pt-4">
-              Crafted Coffee, Cozy Vibes, Unforgettable Moments – Your Perfect
-              Espresso Escape
+              Café artesanal, ambiente acogedor, momentos inolvidables – Tu
+              escape perfecto de espresso
             </p>
             <a
               href="/"
               target="_blank"
               className="inline-block bg-[#3d2517] py-2 px-4 mt-5 text-sm rounded-full"
             >
-              Visit our YouTube Channel
+              Visita nuestro canal de YouTube
             </a>
           </div>
 
@@ -60,7 +60,7 @@ const Footer = () => {
           <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10">
             <div className="py-8 px-4">
               <h1 className="text-xl font-semibold sm:text-left mb-3">
-                Important Links
+                Enlaces Importantes
               </h1>
               <ul className="space-y-3">
                 {FooterLinks.map((data, index) => (
@@ -78,7 +78,7 @@ const Footer = () => {
             {/* second col links */}
             <div className="py-8 px-4">
               <h1 className="text-xl font-semibold sm:text-left mb-3">
-                Quick Links
+                Enlaces Rápidos
               </h1>
               <ul className="space-y-3">
                 {FooterLinks.map((data, index) => (
@@ -97,11 +97,11 @@ const Footer = () => {
             {/* Company Address */}
             <div className="py-8 px-4 col-span-2 sm:col-auto">
               <h1 className="text-xl font-semibold sm:text-left mb-3">
-                Address
+                Dirección
               </h1>
               <div>
-                <p className="mb-3">Noida , Uttar Pradesh</p>
-                <p>+91 1234567890</p>
+                <p className="mb-3">Ciudad de México, México</p>
+                <p>+52 55 1234 5678</p>
 
                 {/* social links */}
                 <div className="flex items-center gap-3 mt-6">
